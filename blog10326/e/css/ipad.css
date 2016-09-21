@@ -1,0 +1,25 @@
+﻿@media only screen and (min-width:700px) and (max-width:1200px) 
+{
+ /*重写：顶部及主菜单样式*/
+ .top_box{clear:both;width:90%;margin:0px auto;postion:relative;padding:20px 5px;overflow:hidden}
+ .top_box .logo{clear:both;text-align:left;padding:5px 0 5px 5px;width:100%;}
+
+ .menu_box{position:static;padding-top:20px;}
+ .menu_style_homepage{float:left;text-align:center;padding:0px 20px 0px 0px}
+ .menu_style{float:left;text-align:center;padding:0px 20px;}
+
+
+/*重写：网站主体框架样式*/
+.main_box_style2{clear:both;width:90%;margin:0px auto 10px auto;background-color:#fff;padding:10px 20px;border:1px solid #ececec;box-shadow:2px 5px 10px #aaaaaa;overflow:hidden;}
+.main_box_style2 .main_box_inner_left{float:none;width:100%;margin:0px 0px 0 0;overflow:hidden;}
+.main_box_style2 .main_box_inner_right{display:none}
+
+/*重写：bottom样式*/
+.bottom_box .bottom_inner{width:90%;height:70px;margin:0px auto;text-align:right;font-size:14px;line-height:30px;color:#666}
+.bottom_box .bottom_inner a{color:#666}
+.bottom_box .bottom_inner a:hover{color:#ff6600}
+
+.bottom_box .bottom_copyright{text-align:center;height:30px;line-height:30px;color:#eee;}
+.bottom_box .bottom_copyright a{color:#eee}
+
+}
